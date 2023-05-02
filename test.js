@@ -10,6 +10,5 @@ test("displays 'Hello world' in the browser", () => {
   helloWorld();
 
   const outputElement = document.querySelector("p");
-  expect(outputElement).not.toBeNull();
   expect(outputElement.innerText).toContain("Hello world");
 });
