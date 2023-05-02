@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest --harmony"
   },
   "dependencies": {
     "jest": "^29.5.0",
